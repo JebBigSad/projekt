@@ -69,14 +69,12 @@ body {
   color: #af1212;
 } 
 
-
 .container {
   background-color: #fcfcfc;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgb(0 0 0 / 10%);
 }
-
 
 form {
   width: 300px;
@@ -109,9 +107,6 @@ form button {
   cursor: pointer;
   font-size: 16px;
 }
-
-
-
 
 form button:hover {
   background-color: #696969;
