@@ -1,4 +1,5 @@
 body {
+  background-image: url('imag/back.jpg');
   margin: 0;
   padding: 0;
 
@@ -6,26 +7,27 @@ body {
   font-family: sans-serif;
   line-height: 1.5;
 
-  background: #f9f9f9;
 }
 
 .header {
   padding: 20px 40px;
 }
 
-.header-white {
-  background: #fff;
+
+.home {
+  position: absolute;
 }
 
 .nav ul {
   margin: 0;
   padding: 0;
-
+  justify-content: end;
   list-style: none;
 }
 
 .nav > ul {
   display: flex;
+  
 }
 
 .nav li {
@@ -52,12 +54,12 @@ body {
 }
 
 .nav a {
-  color: #333;
+  color: #1e1d1d;
   text-decoration: none;
 }
 
 .nav .nav-title {
-  color: #333;
+  color: #ffffff;
   font-weight: bold;
   text-decoration: none;
 }
@@ -69,7 +71,7 @@ body {
 
 
 .container {
-  background-color: #ffffff;
+  background-color: #fcfcfc;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgb(0 0 0 / 10%);
@@ -100,7 +102,7 @@ form input {
 
 form button {
   padding: 10px;
-  background-color: #067500;
+  background-color: #1c1c1c;
   color: white;
   border: none;
   border-radius: 5px;
@@ -112,7 +114,7 @@ form button {
 
 
 form button:hover {
-  background-color: #26eb04;
+  background-color: #696969;
 }
 
 .logotip {
