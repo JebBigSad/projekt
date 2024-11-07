@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  color: #333;
+  font-family: sans-serif;
+  line-height: 1.5;
+
+  background: #f9f9f9;
+}
+
+.header {
+  padding: 20px 40px;
+}
+
+.header-white {
+  background: #fff;
+}
+
+.nav ul {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.nav > ul {
+  display: flex;
+}
+
+.nav li {
+  position: relative;
+  padding: 15px 30px;
+  cursor: pointer;
+}
+
+.sub-menu {
+  display: none;
+}
+
+.nav li:hover > .sub-menu {
+  
+  position: absolute;
+  left: 0;
+  display: block;
+  
+  width: max-content;
+  padding-top: 25px;
+
+  background: #fdfdfd;
+  box-shadow: 5px 5px 5px 0 rgb(240 240 240 / 100%);
+}
+
+.nav a {
+  color: #333;
+  text-decoration: none;
+}
+
+.nav .nav-title {
+  color: #333;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav li:hover > a,
+.nav li:hover > .nav-title {
+  color: #af1212;
+} 
+
+
+.container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+}
+
+
+form {
+  width: 300px;
+}
+
+form h2 {
+  margin-bottom: 20px;
+}
+
+form label {
+  font-weight: bold;
+}
+
+form input {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #9b9b9b;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+form button {
+  padding: 10px;
+  background-color: #067500;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+
+
+form button:hover {
+  background-color: #26eb04;
+}
+
+.logotip {
+  position: relative;
+  left: 1840px;
+  height: 35px;
+}
+
+img {
+  height: 35px;
+}
